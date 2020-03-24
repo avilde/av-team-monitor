@@ -14,7 +14,7 @@
     <context:component-scan base-package="server.alm, server.jira, server.team, global"/>
 
     <!-- frontend resources -->
-    <mvc:resources mapping="/**" location="/"/>
+    <mvc:resources mapping="/dist/**" location="/"/>
 
     <!-- static credentials -->
     <context:property-placeholder location="classpath:mysql5.properties, classpath:hibernate.properties"/>
