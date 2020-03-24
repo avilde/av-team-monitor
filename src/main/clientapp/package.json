@@ -91,7 +91,7 @@
     "vue-template-compiler": "^2.5.2",
     "vuetify": "^1.0.18",
     "webpack": "^3.10.0",
-    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-bundle-analyzer": "^3.3.2",
     "webpack-dev-server": "^3.1.11",
     "webpack-merge": "^4.1.0"
   },
