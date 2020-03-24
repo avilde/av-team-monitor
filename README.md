@@ -14,6 +14,7 @@ That made the sprints quite difficult to monitor and take action in time.
 - MySql
 - Java Spring MVC
 - VueJS2
+- Vuetify
 
 ## Features
 - light/dark theme
