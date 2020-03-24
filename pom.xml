@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>TeamMonitor</groupId>
+
+    <artifactId>TeamMonitor</artifactId>
+
+    <packaging>war</packaging>
+
+    <version>1.0-SNAPSHOT</version>
+
+    <name>TeamMonitorWebApp</name>
+    <!-- Config (versions, constants) -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <jetty.version>9.2.2.v20140723</jetty.version>
+        <maven.war.version>2.6</maven.war.version>
+        <maven.compiler.version>3.3</maven.compiler.version>
+        <java.version>1.8</java.version>
+        <json.version>20141113</json.version>
+        <jackson.version>2.9.3</jackson.version>
+        <java.servlet.version>3.0.1</java.servlet.version>
+        <javax.servlet.version>1.2</javax.servlet.version>
+        <spring.framework.version>5.0.2.RELEASE</spring.framework.version>
+        <hibernate.verison>5.2.12.Final</hibernate.verison>
+        <apache.http.version>4.4</apache.http.version>
+        <log4j.version>1.2.12</log4j.version>
+        <mysql5.version>5.1.32</mysql5.version>
+        <javassist.version>3.18.2-GA</javassist.version>
+        <apache.common.version>1.5.3</apache.common.version>
+        <jackson.mapper.version>1.9.13</jackson.mapper.version>
+        <tomcat.dbcp.version>7.0.55</tomcat.dbcp.version>
+        <javax.annotation.version>1.3.2</javax.annotation.version>
+        <!-- JIRA -->
+        <attlasian.rest.api.version>5.0.4</attlasian.rest.api.version>
+        <attlasian.rest.core.version>5.0.4</attlasian.rest.core.version>
+        <attlasian.jira.greenhopper.version>6.7.4</attlasian.jira.greenhopper.version>
+        <jersey.version>1.19</jersey.version>
+        <joda.version>2.9.9</joda.version>
+        <guava.version>19.0</guava.version>
+        <jettison.version>1.1</jettison.version>
+        <commons.codec.version>1.10</commons.codec.version>
+        <commons.httpclient.version>3.1</commons.httpclient.version>
+        <commons.logging.version>1.0.4</commons.logging.version>
+        <jaxb.impl.version>2.1.12</jaxb.impl.version>
+        <javax.activation.version>1.1</javax.activation.version>
+        <javax.ws.rs.version>1.1.1</javax.ws.rs.version>
+        <javax.xml.version>2.1</javax.xml.version>
+        <javax.xml.stream.version>1.0-2</javax.xml.stream.version>
+        <stax.api.version>1.0.1</stax.api.version>
+        <cassandra.all.version>0.8.1</cassandra.all.version>
+        <slf4j.version>1.6.1</slf4j.version>
+        <fugue.version>2.6.1</fugue.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>mvn-public</id>
+            <name>MVNRepository</name>
+            <url>http://mvnrepository.com</url>
+        </repository>
+
+        <repository>
+            <id>com.springsource.repository.bundles.releaseNr</id>
+            <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/releaseNr</url>
+        </repository>
+
+        <repository>
+            <id>com.springsource.repository.bundles.external</id>
+            <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/external</url>
+        </repository>
+
+        <repository>
+            <id>atlassian-public</id>
+            <url>https://m2proxy.atlassian.com/repository/public</url>
+            <snapshots>
+                <enabled>true</enabled>
+
+                <updatePolicy>daily</updatePolicy>
+
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>
+
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>atlassian-public</id>
+
+            <url>https://m2proxy.atlassian.com/repository/public</url>
+
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+
+            <snapshots>
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <developers>
+        <developer>
+            <id>Andris Vilde</id>
+            <email>vilde.andris@gmail.com</email>
+        </developer>
+    </developers>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>${basedir}/src/main/java/resources</directory>
+            </resource>
+        </resources>
+
+        <finalName>ROOT</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+
+                <artifactId>maven-war-plugin</artifactId>
+
+                <version>${maven.war.version}</version>
+
+                <configuration>
+                    <webResources>
+                        <resource>
+                            <directory>src\main\java\resources</directory>
+                        </resource>
+
+                        <resource>
+                            <directory>src\main\java\webapp</directory>
+                        </resource>
+                    </webResources>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+
+                <artifactId>maven-compiler-plugin</artifactId>
+
+                <version>${maven.compiler.version}</version>
+
+                <configuration>
+                    <source>${java.version}</source>
+
+                    <target>${java.version}</target>
+
+                    <verbose>true</verbose>
+
+                    <compilerVersion>${java.version}</compilerVersion>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+
+                <artifactId>jetty-maven-plugin</artifactId>
+
+                <version>${jetty.version}</version>
+
+                <configuration>
+                    <webAppSourceDirectory>${basedir}/src/main/java/webapp</webAppSourceDirectory>
+                    <stopKey>STOP_K</stopKey>
+                    <stopPort>9009</stopPort>
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <id>start-jetty</id>
+
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+
+                        <configuration>
+                            <scanIntervalSeconds>0</scanIntervalSeconds>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>stop-jetty</id>
+
+                        <goals>
+                            <goal>stop</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <!-- jetty -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlets</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+        <!-- ALM, hibernate, spring -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>${json.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>${jackson.mapper.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${java.servlet.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${javax.servlet.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${spring.framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>com.springsource.org.apache.commons.pool</artifactId>
+            <version>${apache.common.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>${spring.framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${apache.http.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.verison}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>${javassist.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql5.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-dbcp</artifactId>
+            <version>${tomcat.dbcp.version}</version>
+        </dependency>
+        <!-- JIRA -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>${joda.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atlassian.fugue</groupId>
+            <artifactId>fugue</artifactId>
+            <version>${fugue.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.bluestemsoftware.open.maven.tparty</groupId>
+            <artifactId>jettison</artifactId>
+            <version>${jettison.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>${commons.codec.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>${commons.httpclient.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>${commons.logging.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-client</artifactId>
+            <version>${jersey.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-core</artifactId>
+            <version>${jersey.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-json</artifactId>
+            <version>${jersey.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey.contribs</groupId>
+            <artifactId>jersey-apache-client</artifactId>
+            <version>${jersey.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>${jaxb.impl.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>${javax.activation.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>jsr311-api</artifactId>
+            <version>${javax.ws.rs.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>${javax.xml.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.xml.stream</groupId>
+            <artifactId>stax-api</artifactId>
+            <version>${javax.xml.stream.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>stax</groupId>
+            <artifactId>stax-api</artifactId>
+            <version>${stax.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atlassian.jira</groupId>
+            <artifactId>jira-rest-java-client-api</artifactId>
+            <version>${attlasian.rest.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.atlassian.jira</groupId>
+            <artifactId>jira-rest-java-client-core</artifactId>
+            <version>${attlasian.rest.core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+        <!-- Logging already done using Log4J -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+    </dependencies>
+</project>

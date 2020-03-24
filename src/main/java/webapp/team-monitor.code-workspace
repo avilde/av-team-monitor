@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.insertSpaces": false,
+		"html.format.wrapLineLength": 0,
+		"[yaml]": {
+			"editor.insertSpaces": false,
+			"editor.tabSize": 4
+		},
+		"html.format.enable": false,
+		"javascript.format.enable": false,
+		"json.format.enable": false,
+		"vetur.format.defaultFormatter.html": "none",
+		"prettier.tabWidth": 4,
+		"prettier.useTabs": true,
+		"prettier.singleQuote": true,
+		"npm.enableScriptExplorer": true,
+		"files.autoSaveDelay": 5000
+	}
+}

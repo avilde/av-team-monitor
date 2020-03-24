@@ -1,0 +1,72 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+            http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+    <!-- uses annotations -->
+    <mvc:annotation-driven/>
+    <context:component-scan base-package="server.alm, server.jira, server.team, global"/>
+
+    <!-- frontend resources -->
+    <mvc:resources mapping="/**" location="/"/>
+
+    <!-- static credentials -->
+    <context:property-placeholder location="classpath:mysql5.properties, classpath:hibernate.properties"/>
+
+    <!-- transaction manager -->
+    <tx:annotation-driven/>
+    <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <!-- task scheduler -->
+    <task:annotation-driven scheduler="taskScheduler"/>
+    <task:scheduler id="taskScheduler"/>
+
+    <!-- session factory -->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan">
+            <list>
+                <value>server.alm</value>
+                <value>server.jira</value>
+                <value>server.team</value>
+                <value>server.db</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+                <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+                <prop key="hibernate.format_sql">${hibernate.format_sql}</prop>
+                <prop key="hibernate.default_schema">${hibernate.default_schema}</prop>
+                <prop key="hibernate.id.new_generator_mappings">${hibernate.id.new_generator_mappings}</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!-- date source -->
+    <bean id="dataSource" class="server.db.EncryptedDataSrc">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.pass}"/>
+    </bean>
+
+    <!-- persistence exception -->
+    <bean id="persistenceExceptionTranslationPostProcessor"
+          class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
+
+
+    <!-- Services -->
+    <!-- uncomment to start background services -->
+    <!--<bean id="defectFetcherService" class="server.alm.services.DefectsFetcherSrv"/>-->
+    <!--<bean id="jiraFetcherService" class="server.jira.services.JiraFetcherSrv"/>-->
+
+</beans>

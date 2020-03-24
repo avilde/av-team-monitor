@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7527daa5-8f11-41ad-ae3a-8eea9805cab5" name="Default" comment="ANDRVILD: reactored JIRA api code;">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TeamMonitor_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TeamMonitor_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamMonitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamMonitor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/agilecorptele2com.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/jira.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/jira.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/qc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/qc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/team_monitor_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/team_monitor_db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/spring-context-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/spring-context-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.14e523c0dbbb7ae01a9a145ce8e182e3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.14e523c0dbbb7ae01a9a145ce8e182e3.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ainaore0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ainaore0.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ainaverb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ainaverb.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_alekmjas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_alekmjas.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_andrvild.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_andrvild.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_arteanto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_arteanto.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_artiergl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_artiergl.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_artjlaid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_artjlaid.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_arturkal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_arturkal.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_default.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_denymatu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_denymatu.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_dmitkami.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_dmitkami.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_edgagaid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_edgagaid.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_edijvalu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_edijvalu.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_eduakovr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_eduakovr.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_elvisala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_elvisala.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_genamoro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_genamoro.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_irynmare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_irynmare.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_janiluli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_janiluli.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_janitaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_janitaur.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jekapuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jekapuse.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jekasoko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jekasoko.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jelesito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jelesito.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jevgjasi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jevgjasi.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jevgzeli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jevgzeli.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_juliputr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_juliputr.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_juriingri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_juriingri.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_karimark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_karimark.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_kempgopa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_kempgopa.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_kriskaza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_kriskaza.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_makskrai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_makskrai.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_makspalu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_makspalu.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_mariharl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_mariharl.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_mihakras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_mihakras.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_natavolc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_natavolc.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_nikoziko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_nikoziko.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_olekbara.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_olekbara.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_pavenaum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_pavenaum.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_pravsund.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_pravsund.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_rahuvija.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_rahuvija.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_raviasin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_raviasin.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ritasteb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ritasteb.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_romaples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_romaples.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ruslnebi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ruslnebi.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ruslziti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ruslziti.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sanddauk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sanddauk.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sanimeln.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sanimeln.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_saniturh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_saniturh.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sergetim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sergetim.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sigudanc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sigudanc.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_svetgink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_svetgink.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_tomskirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_tomskirt.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_vjackuzn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_vjackuzn.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_vladgram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_vladgram.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_zanezaka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_zanezaka.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_zigmmold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_zigmmold.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-128.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-16.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-256.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-48.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-512.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-64.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/ipr-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/ipr-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-25.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-32.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-44.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/app.d479b76871b2b6f9bac3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/manifest.fa619e0784b52334e174.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/vendor.f721b4a6533dd6de4884.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="AUTO_SHOW_ERRORS_IN_EDITOR" value="false" />
+    <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/teammonitor$InstallCert.coverage" NAME="InstallCert Coverage Results" MODIFIED="1512935780947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>server.sec.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="hibernate_config.xml/Hibernate" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="hibernate_config.xml/Hibernate" type="e3449647:DbNodeDescriptor" />
+        <item name="team_monitor" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ProtossMonitor" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Javascript File" />
+        <option value="FxmlFile" />
+        <option value="SQL Script" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Andris Vilde &lt;vilde.andris@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="ProtossMonitor/invalid/Spring" />
+      <facet id="ProtossMonitor/invalid/Web" />
+      <facet id="TeamMonitor/invalid/JPA" />
+      <facet id="TeamMonitor/invalid/Spring" />
+      <facet id="TeamMonitor/invalid/Web" />
+    </ignored-facets>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="outputLevel" value="ERROR" />
+        <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZXFPBHXjQmqoh3gEz16XAj5bqb" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>General</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="01b1733e-1dbf-47a5-ac2e-cc45c268537c" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="DB2 (JTOpen)&#10;MySQL" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/lib" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41954023" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="server.team.model.entity" />
+      <recent name="" />
+      <recent name="server.jira.model.entity" />
+      <recent name="alm.database" />
+      <recent name="alm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andrvild-a\Documents\projects\TeamMonitor\teammonitor\src\main\java\webapp" />
+      <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java\webapp\WEB-INF" />
+      <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java\webapp\js\api" />
+      <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java\webapp" />
+      <recent name="C:\Users\andrvild-a\Dropbox\TELE2\projects\TeamMonitor\src\main\webapp\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java\webapp" />
+      <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java\webapp\static" />
+      <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java\resources" />
+      <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java" />
+      <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\META-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="webapp" />
+      <recent name="server.protection" />
+      <recent name="server" />
+      <recent name="team" />
+      <recent name="global.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="server.jira.model.entity" />
+      <recent name="main.alm.model.entity" />
+      <recent name="main.alm.model" />
+      <recent name="main.alm.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="server.team.model.entity" />
+      <recent name="main.alm.model" />
+      <recent name="alm.database" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="alm.database" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.TeamMonitor [jetty:start]">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangePassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.sec.ChangePassword" />
+      <module name="TeamMonitor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Global" type="Application" factoryName="Application" temporary="true">
+      <module name="TeamMonitor" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstallCert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.sec.InstallCert" />
+      <module name="TeamMonitor" />
+      <option name="PROGRAM_PARAMETERS" value="agile.corp.tele2.com" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.sec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamMonitor [jetty:start]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:start" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean:clean" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="compiler:compile" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamMonitor [war:war]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="war:war" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Global" />
+      <item itemvalue="Application.ChangePassword" />
+      <item itemvalue="Application.InstallCert" />
+      <item itemvalue="Maven.TeamMonitor [jetty:start]" />
+      <item itemvalue="Maven.TeamMonitor [war:war]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChangePassword" />
+        <item itemvalue="Maven.TeamMonitor [war:war]" />
+        <item itemvalue="Application.InstallCert" />
+        <item itemvalue="Application.Global" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1481475179415" text="qc_" recursive="true" caseInsensitive="true" type="XML" history="1" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\andrvild-a\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7527daa5-8f11-41ad-ae3a-8eea9805cab5" name="Default" comment="" />
+      <created>1468512597901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1468512597901</updated>
+      <workItem from="1468512600366" duration="2763000" />
+      <workItem from="1468515414367" duration="8083000" />
+      <workItem from="1468524184433" duration="6485000" />
+      <workItem from="1468568466834" duration="4150000" />
+      <workItem from="1468572903329" duration="82568000" />
+      <workItem from="1468849463560" duration="4191000" />
+      <workItem from="1468941850315" duration="3749000" />
+      <workItem from="1469099172577" duration="3731000" />
+      <workItem from="1469103215596" duration="4001000" />
+      <workItem from="1469177526511" duration="7157000" />
+      <workItem from="1470123727665" duration="933000" />
+      <workItem from="1470301293463" duration="1117000" />
+      <workItem from="1470302520302" duration="678000" />
+      <workItem from="1470304555709" duration="732000" />
+      <workItem from="1470565899547" duration="36000" />
+      <workItem from="1470565964608" duration="520000" />
+      <workItem from="1471246169896" duration="1307000" />
+      <workItem from="1471249178507" duration="367000" />
+      <workItem from="1471251257320" duration="355000" />
+      <workItem from="1471606976548" duration="318000" />
+      <workItem from="1471607436225" duration="1518000" />
+      <workItem from="1475564068915" duration="78000" />
+      <workItem from="1475589686326" duration="68000" />
+      <workItem from="1475648619905" duration="433000" />
+      <workItem from="1475674347646" duration="1861000" />
+      <workItem from="1475734745553" duration="1786000" />
+      <workItem from="1475736608190" duration="2130000" />
+      <workItem from="1475739216515" duration="1825000" />
+      <workItem from="1475741090240" duration="1678000" />
+      <workItem from="1475752808774" duration="1050000" />
+      <workItem from="1475757437621" duration="1782000" />
+      <workItem from="1502456405956" duration="954000" />
+      <workItem from="1505671998503" duration="1640000" />
+      <workItem from="1506765686730" duration="86000" />
+      <workItem from="1506765831209" duration="1287000" />
+      <workItem from="1507833057343" duration="15000" />
+      <workItem from="1515843262863" duration="531000" />
+      <workItem from="1530355772222" duration="462000" />
+    </task>
+    <task id="LOCAL-00050" summary="ANDRVILD: refactored server side;">
+      <created>1502783978100</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1502783978100</updated>
+    </task>
+    <task id="LOCAL-00051" summary="ANDRVILD: added resource golder;">
+      <created>1502871144395</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1502871144395</updated>
+    </task>
+    <task id="LOCAL-00052" summary="ANDRVILD: modified logger config;">
+      <created>1502874859136</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1502874859136</updated>
+    </task>
+    <task id="LOCAL-00053" summary="ANDRVILD: implemented hibernate password encryption;">
+      <created>1503428842956</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1503428842956</updated>
+    </task>
+    <task id="LOCAL-00054" summary="ANDRVILD: implemented hibernate password encryption;">
+      <created>1503434600771</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1503434600772</updated>
+    </task>
+    <task id="LOCAL-00055" summary="ANDRVILD: implemented hibernate password encryption;">
+      <created>1503518106890</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1503518106891</updated>
+    </task>
+    <task id="LOCAL-00056" summary="ANDRVILD: implemented hibernate password encryption;">
+      <created>1503835689122</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1503835689123</updated>
+    </task>
+    <task id="LOCAL-00057" summary="ANDRVILD: jira service base;">
+      <created>1505069588549</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1505069588551</updated>
+    </task>
+    <task id="LOCAL-00058" summary="ANDRVILD: jira items;">
+      <created>1505671053901</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1505671053902</updated>
+    </task>
+    <task id="LOCAL-00059" summary="ANDRVILD: jira items;">
+      <created>1505677868564</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1505677868564</updated>
+    </task>
+    <task id="LOCAL-00060" summary="ANDRVILD: added jira controller;">
+      <created>1505935640748</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1505935640749</updated>
+    </task>
+    <task id="LOCAL-00061" summary="ANDRVILD: renamed all entity names from plural to singular names, increased performance of jira fetcher service;">
+      <created>1506773293745</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1506773293747</updated>
+    </task>
+    <task id="LOCAL-00062" summary="ANDRVILD: frontend fixes, css fixes;">
+      <created>1506788586625</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1506788586625</updated>
+    </task>
+    <task id="LOCAL-00063" summary="ANDRVILD: frontend fixes, css fixes;">
+      <created>1506789130874</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1506789130874</updated>
+    </task>
+    <task id="LOCAL-00064" summary="ANDRVILD: db updates;">
+      <created>1506801849041</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1506801849041</updated>
+    </task>
+    <task id="LOCAL-00065" summary="ANDRVILD: jira fetcher exception handling;">
+      <created>1507060041525</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1507060041526</updated>
+    </task>
+    <task id="LOCAL-00066" summary="ANDRVILD: service worker, new page - tasks">
+      <created>1507579635990</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1507579635991</updated>
+    </task>
+    <task id="LOCAL-00067" summary="ANDRVILD: reworked getting team data;">
+      <created>1509227700762</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1509227700763</updated>
+    </task>
+    <task id="LOCAL-00068" summary="ANDRVILD: reworked TM front-end;">
+      <created>1509315181987</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1509315181988</updated>
+    </task>
+    <task id="LOCAL-00069" summary="ANDRVILD: few front-end changes;">
+      <created>1510520752468</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1510520752469</updated>
+    </task>
+    <task id="LOCAL-00070" summary="ANDRVILD: few front-end changes;">
+      <created>1512936289034</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1512936289034</updated>
+    </task>
+    <task id="LOCAL-00071" summary="ANDRVILD: few front-end changes;">
+      <created>1512936298015</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1512936298015</updated>
+    </task>
+    <task id="LOCAL-00072" summary="ANDRVILD: few front-end changes;">
+      <created>1515963819673</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1515963819673</updated>
+    </task>
+    <task id="LOCAL-00073" summary="ANDRVILD: few front-end changes;">
+      <created>1516136648079</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1516136648079</updated>
+    </task>
+    <task id="LOCAL-00074" summary="ANDRVILD: turned of QC;">
+      <created>1527436148249</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1527436148249</updated>
+    </task>
+    <task id="LOCAL-00075" summary="ANDRVILD: removed old solution;">
+      <created>1527439775673</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1527439775674</updated>
+    </task>
+    <task id="LOCAL-00076" summary="ANDRVILD: members update;">
+      <created>1527441728648</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1527441728648</updated>
+    </task>
+    <task id="LOCAL-00077" summary="ANDRVILD: optimized images, added web config;">
+      <created>1527716952514</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1527716952514</updated>
+    </task>
+    <task id="LOCAL-00078" summary="ANDRVILD: optimized images, added web config;">
+      <created>1527716981289</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1527716981289</updated>
+    </task>
+    <task id="LOCAL-00079" summary="ANDRVILD: added amber team;">
+      <created>1528051897842</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1528051897842</updated>
+    </task>
+    <task id="LOCAL-00080" summary="ANDRVILD: added more jira item fields;">
+      <created>1529740302292</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1529740302292</updated>
+    </task>
+    <task id="LOCAL-00081" summary="ANDRVILD: formatted JSON properly;">
+      <created>1529748176749</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1529748176749</updated>
+    </task>
+    <task id="LOCAL-00082" summary="ANDRVILD: escaped comment body;">
+      <created>1529928571139</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1529928571139</updated>
+    </task>
+    <task id="LOCAL-00083" summary="ANDRVILD: escaped comment body;">
+      <created>1530021972622</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1530021972624</updated>
+    </task>
+    <task id="LOCAL-00084" summary="ANDRVILD: reworked item download approach - to async parallel;">
+      <created>1530101571591</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1530101571594</updated>
+    </task>
+    <task id="LOCAL-00085" summary="ANDRVILD: reworked item download approach - to async parallel;">
+      <created>1530108963379</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1530108963379</updated>
+    </task>
+    <task id="LOCAL-00086" summary="ANDRVILD: refactored Jira dao to hibernate ORM syntax;">
+      <created>1530179888150</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1530179888150</updated>
+    </task>
+    <task id="LOCAL-00087" summary="ANDRVILD: remove unused method;">
+      <created>1530180120569</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1530180120569</updated>
+    </task>
+    <task id="LOCAL-00088" summary="ANDRVILD: refactored criterias;">
+      <created>1530273008712</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1530273008712</updated>
+    </task>
+    <task id="LOCAL-00089" summary="ANDRVILD: refactored criterias;">
+      <created>1530346138892</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1530346138892</updated>
+    </task>
+    <task id="LOCAL-00090" summary="ANDRVILD: refactored criterias;">
+      <created>1530357945821</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1530357945821</updated>
+    </task>
+    <task id="LOCAL-00091" summary="ANDRVILD: corrected parent field string;">
+      <created>1530446431112</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1530446431112</updated>
+    </task>
+    <task id="LOCAL-00092" summary="ANDRVILD: added recurring check;">
+      <created>1532630585801</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1532630585802</updated>
+    </task>
+    <task id="LOCAL-00093" summary="ANDRVILD: latest frontend;">
+      <created>1532717480898</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1532717480899</updated>
+    </task>
+    <task id="LOCAL-00094" summary="ANDRVILD: latest frontend;">
+      <created>1532955392439</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1532955392439</updated>
+    </task>
+    <task id="LOCAL-00095" summary="ANDRVILD: updated filters, added open sprints flag;">
+      <created>1533040477591</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1533040477591</updated>
+    </task>
+    <task id="LOCAL-00096" summary="ANDRVILD: reactored JIRA api code;">
+      <created>1533138950289</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1533138950289</updated>
+    </task>
+    <task id="LOCAL-00097" summary="ANDRVILD: reactored JIRA api code;">
+      <created>1534859082327</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1534859082328</updated>
+    </task>
+    <task id="LOCAL-00098" summary="ANDRVILD: reactored JIRA api code;">
+      <created>1534955546941</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1534955546942</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="152425000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="ANDRVILD: renamed all entity names from plural to singular names, increased performance of jira fetcher service;" />
+    <MESSAGE value="ANDRVILD: frontend fixes, css fixes;" />
+    <MESSAGE value="ANDRVILD: db updates;" />
+    <MESSAGE value="ANDRVILD: jira fetcher exception handling;" />
+    <MESSAGE value="ANDRVILD: service worker, new page - tasks" />
+    <MESSAGE value="ANDRVILD: reworked getting team data;" />
+    <MESSAGE value="ANDRVILD: reworked TM front-end;" />
+    <MESSAGE value="ANDRVILD: few front-end changes;" />
+    <MESSAGE value="ANDRVILD: turned of QC;" />
+    <MESSAGE value="ANDRVILD: removed old solution;" />
+    <MESSAGE value="ANDRVILD: members update;" />
+    <MESSAGE value="ANDRVILD: optimized images, added web config;" />
+    <MESSAGE value="ANDRVILD: added amber team;" />
+    <MESSAGE value="ANDRVILD: added more jira item fields;" />
+    <MESSAGE value="ANDRVILD: formatted JSON properly;" />
+    <MESSAGE value="ANDRVILD: escaped comment body;" />
+    <MESSAGE value="ANDRVILD: reworked item download approach - to async parallel;" />
+    <MESSAGE value="ANDRVILD: refactored Jira dao to hibernate ORM syntax;" />
+    <MESSAGE value="ANDRVILD: remove unused method;" />
+    <MESSAGE value="ANDRVILD: refactored criterias;" />
+    <MESSAGE value="ANDRVILD: corrected parent field string;" />
+    <MESSAGE value="ANDRVILD: added recurring check;" />
+    <MESSAGE value="ANDRVILD: latest frontend;" />
+    <MESSAGE value="ANDRVILD: updated filters, added open sprints flag;" />
+    <MESSAGE value="ANDRVILD: reactored JIRA api code;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ANDRVILD: reactored JIRA api code;" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="361" key="#Project_Structure" timestamp="1584977759866">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="361" key="#Project_Structure/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584977759866" />
+    <state x="1131" y="592" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584977613500">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1131" y="592" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584977613500" />
+    <state x="925" y="296" key="CommitChangelistDialog2" timestamp="1585032441249">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="925" y="296" key="CommitChangelistDialog2/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585032441249" />
+    <state x="1060" y="457" key="FileChooserDialogImpl" timestamp="1584977833397">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="457" key="FileChooserDialogImpl/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584977833397" />
+    <state width="973" height="485" key="GridCell.Tab.0.bottom" timestamp="1585029441096">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="973" height="485" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585029441096" />
+    <state width="973" height="485" key="GridCell.Tab.0.center" timestamp="1585029441096">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="973" height="485" key="GridCell.Tab.0.center/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585029441096" />
+    <state width="973" height="485" key="GridCell.Tab.0.left" timestamp="1585029441096">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="973" height="485" key="GridCell.Tab.0.left/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585029441096" />
+    <state width="973" height="485" key="GridCell.Tab.0.right" timestamp="1585029441096">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="973" height="485" key="GridCell.Tab.0.right/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585029441096" />
+    <state x="810" y="358" key="Maven.ArtifactSearchDialog" timestamp="1584977671650">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="810" y="358" key="Maven.ArtifactSearchDialog/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584977671650" />
+    <state x="987" y="456" width="586" height="488" key="find.popup" timestamp="1584978670238">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="987" y="456" width="586" height="488" key="find.popup/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584978670238" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>client.close();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>client.getIssueClient().getIssue()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.atlassian.jira.rest.client.api.IssueRestClient</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>searchClient.searchJql(formattedJql, pageSize, startAt, null).claim().getIssues();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>client.getIssueClient().getIssue(&quot;SBL-16928&quot;).claim().getComments();</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.atlassian.jira.rest.client.api.IssueRestClient,com.atlassian.jira.rest.client.internal.async.AsynchronousJiraRestClient</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>client.getIssueClient().getIssue(&quot;SBL-16928&quot;).claim().getAttachments();</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.atlassian.jira.rest.client.api.IssueRestClient,com.atlassian.jira.rest.client.internal.async.AsynchronousJiraRestClient</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>client.getIssueClient().getIssue(&quot;SBL-16928&quot;).claim();</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.atlassian.jira.rest.client.api.IssueRestClient,com.atlassian.jira.rest.client.internal.async.AsynchronousJiraRestClient</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>client.getIssueClient().getIssue(&quot;SBL-16928&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.atlassian.jira.rest.client.api.IssueRestClient,com.atlassian.jira.rest.client.internal.async.AsynchronousJiraRestClient</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>issue.getFieldByName(&quot;Parent&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>issue.getAttachments()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="arrayFilter">
+      <expression>
+        <expression-string>issue.getFieldByName(&quot;Parent Link&quot;) != &quot;null&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;jql=project+%3D+CRMMS+AND+resolution+%3D+unresolved+AND+assignee+IN+(alekgrig,dagnbram,davimura,henrsmel,ilgasink,inaskla,jekalaci,lidisuna,ludmbobr,makspshe,purupolu,divyadig,nihaswai)+AND+(labels+%3D+NULL+OR+labels+NOT+IN+('reporting_rfs',+'internal',+'Siebel_Sprint_Activities'))+AND+summary+!~+'CLONE'+AND+summary+!~+'Recurring'&amp;expand=schema,names&amp;maxResults=1&amp;startAt=0&amp;fields=attachment,comment&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean package install" />
+    <option value="dependency:list -X" />
+  </component>
+</project>

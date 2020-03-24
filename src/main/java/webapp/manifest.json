@@ -1,0 +1,46 @@
+{
+	"manifest_version": "1",
+	"start_url": "index.html",
+	"theme_color": "#3f51b5",
+	"background_color": "#fff",
+	"name": "Team Monitor",
+	"short_name": "TM",
+	"display": "standalone",
+	"orientation": "portrait",
+	"default_locale": "en",
+	"description": "Team Monitor App",
+	"author": "Andris Vilde 'andris.vilde@tele2.com'",
+	"icons": [
+	  {
+		"sizes": "16x16",
+		"type": "image/webp",
+		"src": "static/images/app-logo-16.webp"
+	  },
+	  {
+		"sizes": "48x48",
+		"type": "image/webp",
+		"src": "static/images/app-logo-48.webp"
+	  },
+	  {
+		"sizes": "64x64",
+		"type": "image/webp",
+		"src": "static/images/app-logo-64.webp"
+	  },
+	  {
+		"sizes": "128x128",
+		"type": "image/webp",
+		"src": "static/images/app-logo-128.webp"
+	  },
+	  {
+		"sizes": "256x256",
+		"type": "image/webp",
+		"src": "static/images/app-logo-256.webp"
+	  },
+	  {
+		"sizes": "512x512",
+		"type": "image/webp",
+		"src": "static/images/app-logo-512.webp"
+	  }
+	]
+  }
+  
