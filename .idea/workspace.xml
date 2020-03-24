@@ -2,235 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7527daa5-8f11-41ad-ae3a-8eea9805cab5" name="Default" comment="ANDRVILD: reactored JIRA api code;">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TeamMonitor_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TeamMonitor_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamMonitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamMonitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/agilecorptele2com.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/jira.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/jira.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/qc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/qc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/team_monitor_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/team_monitor_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/spring-context-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/spring-context-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.14e523c0dbbb7ae01a9a145ce8e182e3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.14e523c0dbbb7ae01a9a145ce8e182e3.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ainaore0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ainaore0.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ainaverb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ainaverb.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_alekmjas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_alekmjas.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_andrvild.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_andrvild.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_arteanto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_arteanto.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_artiergl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_artiergl.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_artjlaid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_artjlaid.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_arturkal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_arturkal.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_default.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_denymatu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_denymatu.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_dmitkami.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_dmitkami.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_edgagaid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_edgagaid.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_edijvalu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_edijvalu.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_eduakovr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_eduakovr.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_elvisala.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_elvisala.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_genamoro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_genamoro.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_irynmare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_irynmare.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_janiluli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_janiluli.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_janitaur.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_janitaur.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jekapuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jekapuse.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jekasoko.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jekasoko.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jelesito.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jelesito.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jevgjasi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jevgjasi.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jevgzeli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_jevgzeli.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_juliputr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_juliputr.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_juriingri.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_juriingri.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_karimark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_karimark.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_kempgopa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_kempgopa.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_kriskaza.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_kriskaza.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_makskrai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_makskrai.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_makspalu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_makspalu.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_mariharl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_mariharl.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_mihakras.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_mihakras.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_natavolc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_natavolc.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_nikoziko.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_nikoziko.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_olekbara.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_olekbara.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_pavenaum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_pavenaum.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_pravsund.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_pravsund.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_rahuvija.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_rahuvija.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_raviasin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_raviasin.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ritasteb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ritasteb.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_romaples.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_romaples.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ruslnebi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ruslnebi.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ruslziti.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_ruslziti.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sanddauk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sanddauk.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sanimeln.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sanimeln.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_saniturh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_saniturh.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sergetim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sergetim.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sigudanc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_sigudanc.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_svetgink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_svetgink.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_tomskirt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_tomskirt.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_vjackuzn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_vjackuzn.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_vladgram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_vladgram.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_zanezaka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_zanezaka.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_zigmmold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/avatars/avatar_zigmmold.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-100.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/amber-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-128.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-16.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-256.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-48.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-512.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/app-logo-64.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-100.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/batman-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-100.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/cdi-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/ipr-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/ipr-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-100.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/lannister-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-100.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/maintenance-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-100.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/platinum-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-100.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/sbl_support-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-100.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/stark-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-100.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/terran-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-100.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-25.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-32.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/images/logos/zerg-44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/app.d479b76871b2b6f9bac3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/manifest.fa619e0784b52334e174.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/vendor.f721b4a6533dd6de4884.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1120,10 +893,10 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="361" key="#Project_Structure" timestamp="1584977759866">
+    <state x="872" y="361" key="#Project_Structure" timestamp="1585041154983">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="361" key="#Project_Structure/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584977759866" />
+    <state x="872" y="361" key="#Project_Structure/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585041154983" />
     <state x="1131" y="592" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584977613500">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -1136,22 +909,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="457" key="FileChooserDialogImpl/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584977833397" />
-    <state width="973" height="485" key="GridCell.Tab.0.bottom" timestamp="1585029441096">
+    <state width="2517" height="232" key="GridCell.Tab.0.bottom" timestamp="1585043077683">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="973" height="485" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585029441096" />
-    <state width="973" height="485" key="GridCell.Tab.0.center" timestamp="1585029441096">
+    <state width="2517" height="232" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585043077683" />
+    <state width="2517" height="232" key="GridCell.Tab.0.center" timestamp="1585043077683">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="973" height="485" key="GridCell.Tab.0.center/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585029441096" />
-    <state width="973" height="485" key="GridCell.Tab.0.left" timestamp="1585029441096">
+    <state width="2517" height="232" key="GridCell.Tab.0.center/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585043077683" />
+    <state width="2517" height="232" key="GridCell.Tab.0.left" timestamp="1585043077682">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="973" height="485" key="GridCell.Tab.0.left/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585029441096" />
-    <state width="973" height="485" key="GridCell.Tab.0.right" timestamp="1585029441096">
+    <state width="2517" height="232" key="GridCell.Tab.0.left/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585043077682" />
+    <state width="2517" height="232" key="GridCell.Tab.0.right" timestamp="1585043077683">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="973" height="485" key="GridCell.Tab.0.right/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585029441096" />
+    <state width="2517" height="232" key="GridCell.Tab.0.right/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585043077683" />
     <state x="810" y="358" key="Maven.ArtifactSearchDialog" timestamp="1584977671650">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -1160,6 +933,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="987" y="456" width="586" height="488" key="find.popup/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584978670238" />
+    <state x="997" y="503" key="git4idea.merge.GitPullDialog" timestamp="1585040571274">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="997" y="503" key="git4idea.merge.GitPullDialog/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585040571274" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
