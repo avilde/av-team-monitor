@@ -24,7 +24,7 @@
         <jackson.version>2.9.3</jackson.version>
         <java.servlet.version>3.0.1</java.servlet.version>
         <javax.servlet.version>1.2</javax.servlet.version>
-        <spring.framework.version>5.0.2.RELEASE</spring.framework.version>
+        <spring.framework.version>5.2.4.RELEASE</spring.framework.version>
         <hibernate.verison>5.2.12.Final</hibernate.verison>
         <apache.http.version>4.4</apache.http.version>
         <log4j.version>1.2.12</log4j.version>
