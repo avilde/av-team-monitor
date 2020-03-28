@@ -1,7 +1,7 @@
 'use strict'
 import { bus } from './main'
 import { URL } from './globals'
-import teamDataJson from './mock/team-data.json'
+import teamDataMock from './mock/team-data.json'
 /*
  * --------------------------------------------- --------------------------------------------- --------------------------------------------- *
  *                                                          TEAM MONITOR GLOBAL OBJECT                                                       *
@@ -62,7 +62,7 @@ class TeamMonitor {
 					his.processConfig(data)
 				})
 				.catch(e => {
-					this.processConfig(teamDataJson)
+					this.processConfig(teamDataMock)
 					/* commented out for display purposes */
 					/*bus.$emit(
 						'errorMsg',

@@ -183,6 +183,7 @@ import moment from 'moment';
 import {bus} from '../main';
 import TaskDetails from './TaskDetails.vue';
 import {debounce, getJiraItems, getQcItems, PRIO_ICONS, TYPE_ICONS} from '../globals';
+import jiraItemsMock from '../mock/jira-items.json';
 
 const QC = 'QC',
 	JIRA = 'JIRA',
@@ -400,7 +401,12 @@ export default {
 			bus.$emit('tasksLoading', initial);
 
 			qcData = vm.settings && vm.settings.qcEnabled ? await getQcItems() : [];
+			
+			try {
 			jiraData = vm.settings && vm.settings.jiraEnabled ? await getJiraItems() : [];
+			} catch (e) {
+				jiraData = jiraItemsMock;
+			}
 			result = [];
 
 			if (vm.settings.qcEnabled) {
@@ -527,11 +533,15 @@ export default {
 
 #tm-app .idx-2,
 #tm-app .idx-3,
-#tm-app .idx-4,
 #tm-app .idx-5,
 #tm-app .idx-6 {
 	min-width: 110px;
 	max-width: 110px;
+}
+
+#tm-app .idx-4 {
+	min-width: 120px;
+	max-width: 120px;
 }
 
 #tm-app .idx-7 {
