@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7527daa5-8f11-41ad-ae3a-8eea9805cab5" name="Default" comment="ANDRVILD: reactored JIRA api code;">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.1088adf3d4e58a14ac156be0e60edad5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.1088adf3d4e58a14ac156be0e60edad5.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/static/js/app.68754681a855638be45e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/static/js/manifest.37a2ecbb1d1b7e6c9ada.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/static/js/vendor.f3557208b314ab2b4b7a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_2_2_v20140723.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_2_2_v20140723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_9_v20180320.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_2_v20140723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_9_v20180320.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_2_2_v20140723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_9_v20180320.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_2_v20140723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_9_v20180320.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/clientapp/src/mock/jira-items.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/clientapp/src/mock/team-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamMonitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamMonitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/clientapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/clientapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/clientapp/src/tm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/clientapp/src/tm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/mysql5.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/mysql5.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.3cce62f4fe0fa6f21785bd7c34ae81ae.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.3cce62f4fe0fa6f21785bd7c34ae81ae.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/app.6c1c62a9bd462cc334a7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/manifest.b97ecaf156fd6a6fd137.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/vendor.f721b4a6533dd6de4884.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +181,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="JPA.DatabaseSchemaImportDialog" value="01b1733e-1dbf-47a5-ac2e-cc45c268537c" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -826,6 +806,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ANDRVILD: renamed all entity names from plural to singular names, increased performance of jira fetcher service;" />
     <MESSAGE value="ANDRVILD: frontend fixes, css fixes;" />
     <MESSAGE value="ANDRVILD: db updates;" />
@@ -884,26 +865,26 @@
     </state>
     <state x="1060" y="457" key="FileChooserDialogImpl/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584977833397" />
     <state x="1060" y="455" key="FileChooserDialogImpl/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585407055538" />
-    <state width="2517" height="399" key="GridCell.Tab.0.bottom" timestamp="1585411308820">
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom" timestamp="1585412292030">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state width="2517" height="232" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585048121345" />
-    <state width="2517" height="399" key="GridCell.Tab.0.bottom/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585411308820" />
-    <state width="2517" height="399" key="GridCell.Tab.0.center" timestamp="1585411308819">
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585412292030" />
+    <state width="2517" height="399" key="GridCell.Tab.0.center" timestamp="1585412292030">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state width="2517" height="232" key="GridCell.Tab.0.center/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585048121345" />
-    <state width="2517" height="399" key="GridCell.Tab.0.center/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585411308819" />
-    <state width="2517" height="399" key="GridCell.Tab.0.left" timestamp="1585411308819">
+    <state width="2517" height="399" key="GridCell.Tab.0.center/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585412292030" />
+    <state width="2517" height="399" key="GridCell.Tab.0.left" timestamp="1585412292030">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state width="2517" height="232" key="GridCell.Tab.0.left/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585048121345" />
-    <state width="2517" height="399" key="GridCell.Tab.0.left/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585411308819" />
-    <state width="2517" height="399" key="GridCell.Tab.0.right" timestamp="1585411308820">
+    <state width="2517" height="399" key="GridCell.Tab.0.left/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585412292030" />
+    <state width="2517" height="399" key="GridCell.Tab.0.right" timestamp="1585412292030">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state width="2517" height="232" key="GridCell.Tab.0.right/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585048121345" />
-    <state width="2517" height="399" key="GridCell.Tab.0.right/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585411308820" />
+    <state width="2517" height="399" key="GridCell.Tab.0.right/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585412292030" />
     <state width="2517" height="489" key="GridCell.Tab.1.bottom" timestamp="1585408062764">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>

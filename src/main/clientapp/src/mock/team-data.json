@@ -1,0 +1,867 @@
+{
+	"settings": [
+		{
+			"rowId": 3,
+			"name": "name",
+			"value": "Team Monitor",
+			"type": "client"
+		},
+		{
+			"rowId": 4,
+			"name": "department",
+			"value": "Andris Department",
+			"type": "client"
+		},
+		{
+			"rowId": 5,
+			"name": "version",
+			"value": "2.0.0",
+			"type": "client"
+		},
+		{
+			"rowId": 6,
+			"name": "project",
+			"value": "My Project",
+			"type": "client"
+		},
+		{
+			"rowId": 7,
+			"name": "shortName",
+			"value": "TM",
+			"type": "client"
+		},
+		{
+			"rowId": 8,
+			"name": "primaryColor",
+			"value": "indigo",
+			"type": "client"
+		},
+		{
+			"rowId": 9,
+			"name": "secondaryColor",
+			"value": "grey",
+			"type": "client"
+		},
+		{
+			"rowId": 10,
+			"name": "darkTheme",
+			"value": "false",
+			"type": "client"
+		},
+		{
+			"rowId": 11,
+			"name": "jiraHost",
+			"value": "<your hira host>",
+			"type": "client"
+		},
+		{
+			"rowId": 12,
+			"name": "jiraEnabled",
+			"value": "true",
+			"type": "client"
+		},
+		{
+			"rowId": 13,
+			"name": "qcEnabled",
+			"value": "false",
+			"type": "client"
+		}
+	],
+	"environments": [],
+	"teams": [
+		{
+			"rowId": 2,
+			"activeFlg": 1,
+			"ownPageFlg": 1,
+			"teamName": "zorg",
+			"caption": "Zorg",
+			"qtips": "",
+			"avatars": "",
+			"description": null,
+			"members": [
+				{
+					"rowId": 33,
+					"login": "athenadurham",
+					"role": null,
+					"nickName": "Athena Durham",
+					"description": null
+				},
+				{
+					"rowId": 36,
+					"login": "safwanbenitez",
+					"role": null,
+					"nickName": "Safwan Benitez",
+					"description": null
+				},
+				{
+					"rowId": 37,
+					"login": "selinabouvet",
+					"role": null,
+					"nickName": "Selina Bouvet",
+					"description": null
+				},
+				{
+					"rowId": 39,
+					"login": "sierramonroe",
+					"role": null,
+					"nickName": "Sierra Monroe",
+					"description": null
+				},
+				{
+					"rowId": 60,
+					"login": "bellarosesc",
+					"role": null,
+					"nickName": "Bella-Rose Schaefer",
+					"description": null
+				},
+				{
+					"rowId": 118,
+					"login": "rubyleigh",
+					"role": null,
+					"nickName": "Ruby-Leigh Truong",
+					"description": null
+				},
+				{
+					"rowId": 119,
+					"login": "fizafirth",
+					"role": null,
+					"nickName": "Fiza Firth",
+					"description": null
+				},
+				{
+					"rowId": 120,
+					"login": "selinasuarez",
+					"role": null,
+					"nickName": "Selina Suarez",
+					"description": null
+				}
+			],
+			"favicon": null,
+			"primaryColor": "deep-purple",
+			"secondaryColor": "purple"
+		},
+		{
+			"rowId": 3,
+			"activeFlg": 1,
+			"ownPageFlg": 1,
+			"teamName": "human",
+			"caption": "Human",
+			"qtips": "",
+			"avatars": "",
+			"description": null,
+			"members": [
+				{
+					"rowId": 11,
+					"login": "sahilbutt",
+					"role": null,
+					"nickName": "Sahil Butt",
+					"description": null
+				},
+				{
+					"rowId": 17,
+					"login": "jamilroach",
+					"role": null,
+					"nickName": "Jamil Roach",
+					"description": null
+				},
+				{
+					"rowId": 56,
+					"login": "shantellecoleman",
+					"role": null,
+					"nickName": "Shantelle Coleman",
+					"description": null
+				},
+				{
+					"rowId": 87,
+					"login": "kayliehorton",
+					"role": null,
+					"nickName": "Kaylie Horton",
+					"description": null
+				},
+				{
+					"rowId": 89,
+					"login": "avamairich",
+					"role": null,
+					"nickName": "Ava-Mai Rich",
+					"description": null
+				},
+				{
+					"rowId": 90,
+					"login": "jadawalter",
+					"role": null,
+					"nickName": "Jada Walter",
+					"description": null
+				},
+				{
+					"rowId": 91,
+					"login": "cassidycharles",
+					"role": null,
+					"nickName": "Cassidy Charles",
+					"description": null
+				},
+				{
+					"rowId": 92,
+					"login": "antoniodunn",
+					"role": null,
+					"nickName": "Antonio Dunn",
+					"description": null
+				},
+				{
+					"rowId": 93,
+					"login": "tieganbrett",
+					"role": null,
+					"nickName": "Tiegan Brett",
+					"description": null
+				},
+				{
+					"rowId": 95,
+					"login": "tonyakemp",
+					"role": null,
+					"nickName": "Tonya Kemp",
+					"description": null
+				}
+			],
+			"favicon": null,
+			"primaryColor": "blue",
+			"secondaryColor": "orange"
+		},
+		{
+			"rowId": 4,
+			"activeFlg": 1,
+			"ownPageFlg": 1,
+			"teamName": "wolf",
+			"caption": "Wolf",
+			"qtips": "",
+			"avatars": "",
+			"description": null,
+			"members": [
+				{
+					"rowId": 15,
+					"login": "abdurhibbert",
+					"role": null,
+					"nickName": "Abdur Hibbert",
+					"description": null
+				},
+				{
+					"rowId": 18,
+					"login": "kainemelton",
+					"role": null,
+					"nickName": "Kaine Melton",
+					"description": null
+				},
+				{
+					"rowId": 54,
+					"login": "zofiacleveland",
+					"role": null,
+					"nickName": "Zofia Cleveland",
+					"description": null
+				},
+				{
+					"rowId": 55,
+					"login": "anniehough",
+					"role": null,
+					"nickName": "Annie Hough",
+					"description": null
+				},
+				{
+					"rowId": 63,
+					"login": "neo.krueger",
+					"role": null,
+					"nickName": "Neo Krueger",
+					"description": null
+				},
+				{
+					"rowId": 94,
+					"login": "marjoriehussain",
+					"role": null,
+					"nickName": "Marjorie Hussain",
+					"description": null
+				},
+				{
+					"rowId": 96,
+					"login": "yviemelendez",
+					"role": null,
+					"nickName": "Yvie Melendez",
+					"description": null
+				},
+				{
+					"rowId": 121,
+					"login": "yisroelfischer",
+					"role": null,
+					"nickName": "Yisroel Fischer",
+					"description": null
+				}
+			],
+			"favicon": null,
+			"primaryColor": "light-green",
+			"secondaryColor": "lime"
+		},
+		{
+			"rowId": 5,
+			"activeFlg": 1,
+			"ownPageFlg": 1,
+			"teamName": "griffin",
+			"caption": "Griffin",
+			"qtips": "",
+			"avatars": "",
+			"description": null,
+			"members": [
+				{
+					"rowId": 1,
+					"login": "safwanrogers",
+					"role": null,
+					"nickName": "Safwan Rogers",
+					"description": null
+				},
+				{
+					"rowId": 30,
+					"login": "sonnievaldez",
+					"role": null,
+					"nickName": "Sonnie Valdez",
+					"description": null
+				},
+				{
+					"rowId": 44,
+					"login": "craigbooth",
+					"role": null,
+					"nickName": "Craig Booth",
+					"description": null
+				},
+				{
+					"rowId": 50,
+					"login": "inayahodom",
+					"role": null,
+					"nickName": "Inayah Odom",
+					"description": null
+				},
+				{
+					"rowId": 61,
+					"login": "brodygray",
+					"role": null,
+					"nickName": "Brody Gray",
+					"description": null
+				},
+				{
+					"rowId": 62,
+					"login": "indigobyrne",
+					"role": null,
+					"nickName": "Indigo Byrne",
+					"description": null
+				},
+				{
+					"rowId": 75,
+					"login": "safiarobins",
+					"role": null,
+					"nickName": "Safia Robins",
+					"description": null
+				},
+				{
+					"rowId": 122,
+					"login": "dieselchristensen",
+					"role": null,
+					"nickName": "Diesel Christensen",
+					"description": null
+				},
+				{
+					"rowId": 123,
+					"login": "beatravis",
+					"role": null,
+					"nickName": "Bea Travis",
+					"description": null
+				},
+				{
+					"rowId": 128,
+					"login": "charlieortega",
+					"role": null,
+					"nickName": "Charlie Ortega",
+					"description": null
+				}
+			],
+			"favicon": null,
+			"primaryColor": "red",
+			"secondaryColor": "teama"
+		},
+		{
+			"rowId": 8,
+			"activeFlg": 1,
+			"ownPageFlg": 1,
+			"teamName": "tooldevs",
+			"caption": "Tool Devs",
+			"qtips": null,
+			"avatars": null,
+			"description": null,
+			"members": [
+				{
+					"rowId": 97,
+					"login": "walterdickinson",
+					"role": null,
+					"nickName": "Walter Dickinson",
+					"description": null
+				},
+				{
+					"rowId": 98,
+					"login": "zaincampbell",
+					"role": null,
+					"nickName": "Zain Campbell",
+					"description": null
+				},
+				{
+					"rowId": 99,
+					"login": "kayleegibbons",
+					"role": null,
+					"nickName": "Kaylee Gibbons",
+					"description": null
+				},
+				{
+					"rowId": 100,
+					"login": "safiyahburch",
+					"role": null,
+					"nickName": "Safiyah Burch",
+					"description": null
+				},
+				{
+					"rowId": 101,
+					"login": "leylaparkinson",
+					"role": null,
+					"nickName": "Leyla Parkinson",
+					"description": null
+				},
+				{
+					"rowId": 102,
+					"login": "taryncole",
+					"role": null,
+					"nickName": "Taryn Cole",
+					"description": null
+				},
+				{
+					"rowId": 103,
+					"login": "orlaithpoole",
+					"role": null,
+					"nickName": "Orlaith Poole",
+					"description": null
+				},
+				{
+					"rowId": 104,
+					"login": "bridgetmaynard",
+					"role": null,
+					"nickName": "Bridget Maynard",
+					"description": null
+				},
+				{
+					"rowId": 105,
+					"login": "yousefcuevas",
+					"role": null,
+					"nickName": "Yousef Cuevas",
+					"description": null
+				},
+				{
+					"rowId": 106,
+					"login": "graysontodd",
+					"role": null,
+					"nickName": "Grayson Todd",
+					"description": null
+				},
+				{
+					"rowId": 107,
+					"login": "reissmatthams",
+					"role": null,
+					"nickName": "Reiss Matthams",
+					"description": null
+				},
+				{
+					"rowId": 108,
+					"login": "shahevans",
+					"role": null,
+					"nickName": "Shah Evans",
+					"description": null
+				},
+				{
+					"rowId": 109,
+					"login": "nazifamurphy",
+					"role": null,
+					"nickName": "Nazifa Murphy",
+					"description": null
+				}
+			],
+			"favicon": null,
+			"primaryColor": "light-blue",
+			"secondaryColor": "grey"
+		},
+		{
+			"rowId": 9,
+			"activeFlg": 1,
+			"ownPageFlg": 1,
+			"teamName": "crown",
+			"caption": "Crown",
+			"qtips": null,
+			"avatars": null,
+			"description": null,
+			"members": [
+				{
+					"rowId": 16,
+					"login": "kalebglenn",
+					"role": null,
+					"nickName": "Kaleb Glenn",
+					"description": null
+				},
+				{
+					"rowId": 64,
+					"login": "jaynethatcher",
+					"role": null,
+					"nickName": "Jayne Thatcher",
+					"description": null
+				},
+				{
+					"rowId": 65,
+					"login": "keavysonnelly",
+					"role": null,
+					"nickName": "Keavy Donnelly",
+					"description": null
+				},
+				{
+					"rowId": 66,
+					"login": "maiziecorrigan",
+					"role": null,
+					"nickName": "Maizie Corrigan",
+					"description": null
+				},
+				{
+					"rowId": 67,
+					"login": "kingsosa",
+					"role": null,
+					"nickName": "King Sosa",
+					"description": null
+				},
+				{
+					"rowId": 69,
+					"login": "elizabethhandley",
+					"role": null,
+					"nickName": "Elizabeth Handley",
+					"description": null
+				},
+				{
+					"rowId": 70,
+					"login": "georgiahumphrey",
+					"role": null,
+					"nickName": "Georgia Humphrey",
+					"description": null
+				},
+				{
+					"rowId": 71,
+					"login": "archiewilliam",
+					"role": null,
+					"nickName": "Archie William",
+					"description": null
+				},
+				{
+					"rowId": 72,
+					"login": "bebbieconnor",
+					"role": null,
+					"nickName": "Debbie Connor",
+					"description": null
+				},
+				{
+					"rowId": 77,
+					"login": "jordannaortiz",
+					"role": null,
+					"nickName": "Jordanna Ortiz",
+					"description": null
+				},
+				{
+					"rowId": 80,
+					"login": "nazifasantiago",
+					"role": null,
+					"nickName": "Nazifa Santiago",
+					"description": null
+				},
+				{
+					"rowId": 81,
+					"login": "kajetanwinter",
+					"role": null,
+					"nickName": "Kajetan Winter",
+					"description": null
+				},
+				{
+					"rowId": 82,
+					"login": "lilyannmartinez",
+					"role": null,
+					"nickName": "Lily-Ann Martinez",
+					"description": null
+				},
+				{
+					"rowId": 83,
+					"login": "jarroddrake",
+					"role": null,
+					"nickName": "Jarrod Drake",
+					"description": null
+				},
+				{
+					"rowId": 84,
+					"login": "ziggyrobbins",
+					"role": null,
+					"nickName": "Ziggy Robbins",
+					"description": null
+				},
+				{
+					"rowId": 85,
+					"login": "sarinahutton",
+					"role": null,
+					"nickName": "Sarina Hutton",
+					"description": null
+				},
+				{
+					"rowId": 86,
+					"login": "arjanpuckett",
+					"role": null,
+					"nickName": "Arjan Puckett",
+					"description": null
+				},
+				{
+					"rowId": 124,
+					"login": "lilyannewalls",
+					"role": null,
+					"nickName": "Lily-Anne Walls",
+					"description": null
+				},
+				{
+					"rowId": 125,
+					"login": "elliottharrell",
+					"role": null,
+					"nickName": "Elliott Harrell",
+					"description": null
+				}
+			],
+			"favicon": null,
+			"primaryColor": "blue-grey",
+			"secondaryColor": "grey"
+		},
+		{
+			"rowId": 10,
+			"activeFlg": 1,
+			"ownPageFlg": 1,
+			"teamName": "teama",
+			"caption": "Team A",
+			"qtips": null,
+			"avatars": null,
+			"description": null,
+			"members": [
+				{
+					"rowId": 5,
+					"login": "kamilaholloway",
+					"role": null,
+					"nickName": "Kamila Holloway",
+					"description": null
+				},
+				{
+					"rowId": 24,
+					"login": "jemimahsteadman",
+					"role": null,
+					"nickName": "Jemimah Steadman",
+					"description": null
+				},
+				{
+					"rowId": 28,
+					"login": "muskaanchteamas",
+					"role": null,
+					"nickName": "Muskaan Chteamas",
+					"description": null
+				},
+				{
+					"rowId": 34,
+					"login": "kiranpaul",
+					"role": null,
+					"nickName": "Kiran Paul",
+					"description": null
+				},
+				{
+					"rowId": 76,
+					"login": "daliakim",
+					"role": null,
+					"nickName": "Dalia Kim",
+					"description": null
+				},
+				{
+					"rowId": 126,
+					"login": "vijayboyle",
+					"role": null,
+					"nickName": "Vijay Boyle",
+					"description": null
+				},
+				{
+					"rowId": 127,
+					"login": "zivapearson",
+					"role": null,
+					"nickName": "Ziva Pearson",
+					"description": null
+				},
+				{
+					"rowId": 129,
+					"login": "emrysodonnell",
+					"role": null,
+					"nickName": "Emrys Odonnell",
+					"description": null
+				}
+			],
+			"favicon": null,
+			"primaryColor": "teama",
+			"secondaryColor": "deep-orange"
+		},
+		{
+			"rowId": 11,
+			"activeFlg": 1,
+			"ownPageFlg": 1,
+			"teamName": "moderators",
+			"caption": "Moderators",
+			"qtips": null,
+			"avatars": null,
+			"description": null,
+			"members": [
+				{
+					"rowId": 110,
+					"login": "madihahblack",
+					"role": null,
+					"nickName": "Madihah Black",
+					"description": null
+				},
+				{
+					"rowId": 111,
+					"login": "amieepickett",
+					"role": null,
+					"nickName": "Amiee Pickett",
+					"description": null
+				},
+				{
+					"rowId": 112,
+					"login": "krishaschneider",
+					"role": null,
+					"nickName": "Krisha Schneider",
+					"description": null
+				},
+				{
+					"rowId": 113,
+					"login": "haleysavage",
+					"role": null,
+					"nickName": "Haley Savage",
+					"description": null
+				},
+				{
+					"rowId": 114,
+					"login": "louisaburris",
+					"role": null,
+					"nickName": "Louisa Burris",
+					"description": null
+				},
+				{
+					"rowId": 115,
+					"login": "mariellavaughn",
+					"role": null,
+					"nickName": "Mariella Vaughn",
+					"description": null
+				},
+				{
+					"rowId": 117,
+					"login": "harrisonhorton",
+					"role": null,
+					"nickName": "Harrison Horton",
+					"description": null
+				}
+			],
+			"favicon": null,
+			"primaryColor": "indigo",
+			"secondaryColor": "red"
+		},
+		{
+			"rowId": 12,
+			"activeFlg": 1,
+			"ownPageFlg": 1,
+			"teamName": "butman",
+			"caption": "Butman",
+			"qtips": null,
+			"avatars": null,
+			"description": null,
+			"members": [
+				{
+					"rowId": 10,
+					"login": "connahchaney",
+					"role": null,
+					"nickName": "Connah Chaney",
+					"description": null
+				},
+				{
+					"rowId": 35,
+					"login": "kristopherd",
+					"role": null,
+					"nickName": "Kristopher Dougherty",
+					"description": null
+				},
+				{
+					"rowId": 47,
+					"login": "jameliajoseph",
+					"role": null,
+					"nickName": "Jamelia Joseph",
+					"description": null
+				}
+			],
+			"favicon": null,
+			"primaryColor": "grey",
+			"secondaryColor": "yellow"
+		},
+		{
+			"rowId": 13,
+			"activeFlg": 1,
+			"ownPageFlg": 1,
+			"teamName": "criticaldevs",
+			"caption": "Critical Devs",
+			"qtips": null,
+			"avatars": null,
+			"description": null,
+			"members": [
+				{
+					"rowId": 130,
+					"login": "dustinescobar",
+					"role": null,
+					"nickName": "Dustin Escobar",
+					"description": null
+				},
+				{
+					"rowId": 131,
+					"login": "manveerwoodley",
+					"role": null,
+					"nickName": "Manveer Woodley",
+					"description": null
+				},
+				{
+					"rowId": 132,
+					"login": "maariyamora",
+					"role": null,
+					"nickName": "Maariya Mora",
+					"description": null
+				},
+				{
+					"rowId": 133,
+					"login": "arifphan",
+					"role": null,
+					"nickName": "Arif Phan",
+					"description": null
+				},
+				{
+					"rowId": 134,
+					"login": "milanwalters",
+					"role": null,
+					"nickName": "Milan Walters",
+					"description": null
+				},
+				{
+					"rowId": 135,
+					"login": "anielabanks",
+					"role": null,
+					"nickName": "Aniela Banks",
+					"description": null
+				}
+			],
+			"favicon": null,
+			"primaryColor": "green",
+			"secondaryColor": "grey"
+		}
+	]
+}
