@@ -10,7 +10,7 @@ class TeamMonitor {
 	constructor() {
 		this.cfg = undefined;
 		this.getConfig(); // init
-		this.author = 'andris.vilde@tele2.com';
+		this.author = 'vilde.andris@gmail.com';
 	}
 
 	getConfig() {
@@ -77,8 +77,8 @@ class TeamMonitor {
 				'background: #2196F3; color: #fff; font-size: 12px; border-radius: 3px 0 0 3px; font-family: Tahoma;',
 				'background: #bee1fd; color: #000; font-size: 12px; border-radius: 0 3px 3px 0; font-family: Tahoma;',
 				logProject
-				? `| project: ${this.cfg.settings.project}, department: ${this.cfg.settings.department}`
-				: ''
+					? `| project: ${this.cfg.settings.project}, department: ${this.cfg.settings.department}`
+					: ''
 			);
 		}
 	}

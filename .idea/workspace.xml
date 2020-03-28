@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7527daa5-8f11-41ad-ae3a-8eea9805cab5" name="Default" comment="ANDRVILD: reactored JIRA api code;">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_9_v20180320.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.1088adf3d4e58a14ac156be0e60edad5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.1088adf3d4e58a14ac156be0e60edad5.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/static/js/app.68754681a855638be45e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/static/js/manifest.37a2ecbb1d1b7e6c9ada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/static/js/vendor.f3557208b314ab2b4b7a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_2_2_v20140723.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_2_2_v20140723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_9_v20180320.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_2_v20140723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_9_v20180320.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_2_2_v20140723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_9_v20180320.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_2_v20140723.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_9_v20180320.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamMonitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamMonitor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/clientapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/clientapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/clientapp/src/tm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/clientapp/src/tm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/mysql5.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/mysql5.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.3cce62f4fe0fa6f21785bd7c34ae81ae.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/css/app.3cce62f4fe0fa6f21785bd7c34ae81ae.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/app.6c1c62a9bd462cc334a7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/manifest.b97ecaf156fd6a6fd137.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/static/js/vendor.f721b4a6533dd6de4884.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +114,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
         <option name="outputLevel" value="ERROR" />
-        <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+        <option name="printErrorStackTraces" value="true" />
+        <option name="usePluginRegistry" value="true" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -189,11 +215,11 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41954023" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
@@ -211,11 +237,11 @@
       <recent name="C:\Users\andrvild-a\Dropbox\TELE2\projects\TeamMonitor\src\main\webapp\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\av-team-monitor\src\main\java\webapp\WEB-INF" />
+      <recent name="C:\projects\av-team-monitor\src\main\java\webapp" />
       <recent name="C:\Users\jarmenz\projects\av-team-monitor\src\main\clientapp" />
       <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java\webapp" />
       <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java\webapp\static" />
-      <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java\resources" />
-      <recent name="C:\Users\jarmenz\projects\teammonitor\teammonitor\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="webapp" />
@@ -239,7 +265,7 @@
       <recent name="alm.database" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.TeamMonitor [jetty:start]">
+  <component name="RunManager" selected="Maven.TeamMonitor">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -273,48 +299,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangePassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.sec.ChangePassword" />
-      <module name="TeamMonitor" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Global" type="Application" factoryName="Application" temporary="true">
-      <module name="TeamMonitor" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="server.db.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstallCert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.sec.InstallCert" />
-      <module name="TeamMonitor" />
-      <option name="PROGRAM_PARAMETERS" value="agile.corp.tele2.com" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="server.sec.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -326,35 +310,6 @@
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeamMonitor [jetty:start]" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="jetty:start" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2">
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean:clean" />
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="compiler:compile" />
-        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <configuration name="TeamMonitor [war:war]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
@@ -382,6 +337,31 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="TeamMonitor" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -392,18 +372,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Global" />
-      <item itemvalue="Application.ChangePassword" />
-      <item itemvalue="Application.InstallCert" />
-      <item itemvalue="Maven.TeamMonitor [jetty:start]" />
+      <item itemvalue="Maven.TeamMonitor" />
       <item itemvalue="Maven.TeamMonitor [war:war]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChangePassword" />
         <item itemvalue="Maven.TeamMonitor [war:war]" />
-        <item itemvalue="Application.InstallCert" />
-        <item itemvalue="Application.Global" />
       </list>
     </recent_temporary>
   </component>
@@ -808,15 +782,6 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="152425000" />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -892,11 +857,19 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="359" key="#Project_Structure" timestamp="1585403759893">
+    <state x="872" y="359" key="#Project_Structure" timestamp="1585405995635">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="872" y="361" key="#Project_Structure/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585041154983" />
-    <state x="872" y="359" key="#Project_Structure/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585403759893" />
+    <state x="872" y="359" key="#Project_Structure/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585405995635" />
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585411139014">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585411139014" />
+    <state x="1037" y="506" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585407141839">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="1037" y="506" key="#com.intellij.fileTypes.FileTypeChooser/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585407141839" />
     <state x="1131" y="592" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584977613500">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -906,26 +879,47 @@
     </state>
     <state x="925" y="296" key="CommitChangelistDialog2/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585032441249" />
     <state x="925" y="295" key="CommitChangelistDialog2/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585404624417" />
-    <state x="1060" y="457" key="FileChooserDialogImpl" timestamp="1584977833397">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1585407055538">
+      <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="1060" y="457" key="FileChooserDialogImpl/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584977833397" />
-    <state width="2517" height="232" key="GridCell.Tab.0.bottom" timestamp="1585048121345">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585407055538" />
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom" timestamp="1585411308820">
+      <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state width="2517" height="232" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585048121345" />
-    <state width="2517" height="232" key="GridCell.Tab.0.center" timestamp="1585048121345">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585411308820" />
+    <state width="2517" height="399" key="GridCell.Tab.0.center" timestamp="1585411308819">
+      <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state width="2517" height="232" key="GridCell.Tab.0.center/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585048121345" />
-    <state width="2517" height="232" key="GridCell.Tab.0.left" timestamp="1585048121345">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="399" key="GridCell.Tab.0.center/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585411308819" />
+    <state width="2517" height="399" key="GridCell.Tab.0.left" timestamp="1585411308819">
+      <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state width="2517" height="232" key="GridCell.Tab.0.left/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585048121345" />
-    <state width="2517" height="232" key="GridCell.Tab.0.right" timestamp="1585048121345">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="399" key="GridCell.Tab.0.left/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585411308819" />
+    <state width="2517" height="399" key="GridCell.Tab.0.right" timestamp="1585411308820">
+      <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state width="2517" height="232" key="GridCell.Tab.0.right/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585048121345" />
+    <state width="2517" height="399" key="GridCell.Tab.0.right/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585411308820" />
+    <state width="2517" height="489" key="GridCell.Tab.1.bottom" timestamp="1585408062764">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state width="2517" height="489" key="GridCell.Tab.1.bottom/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585408062764" />
+    <state width="2517" height="489" key="GridCell.Tab.1.center" timestamp="1585408062763">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state width="2517" height="489" key="GridCell.Tab.1.center/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585408062763" />
+    <state width="2517" height="489" key="GridCell.Tab.1.left" timestamp="1585408062763">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state width="2517" height="489" key="GridCell.Tab.1.left/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585408062763" />
+    <state width="2517" height="489" key="GridCell.Tab.1.right" timestamp="1585408062764">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state width="2517" height="489" key="GridCell.Tab.1.right/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585408062764" />
     <state x="810" y="358" key="Maven.ArtifactSearchDialog" timestamp="1584977671650">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -934,6 +928,10 @@
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="1089" y="410" key="RollbackChangesDialog/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585404889637" />
+    <state x="783" y="342" key="SettingsEditor" timestamp="1585407092766">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="783" y="342" key="SettingsEditor/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585407092766" />
     <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1585404902999">
       <screen x="0" y="0" width="2560" height="1394" />
     </state>
@@ -950,6 +948,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="997" y="503" key="git4idea.merge.GitPullDialog/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585040571274" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/global/StartupContext.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
