@@ -1041,10 +1041,11 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="361" key="#Project_Structure" timestamp="1585041154983">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="872" y="359" key="#Project_Structure" timestamp="1585403759893">
+      <screen x="0" y="0" width="2560" height="1394" />
     </state>
     <state x="872" y="361" key="#Project_Structure/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1585041154983" />
+    <state x="872" y="359" key="#Project_Structure/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585403759893" />
     <state x="1131" y="592" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584977613500">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -1077,6 +1078,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="810" y="358" key="Maven.ArtifactSearchDialog/0.0.2560.1400/2560.230.1920.1040@0.0.2560.1400" timestamp="1584977671650" />
+    <state x="988" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1585403742544">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="988" y="524" key="com.intellij.ide.util.TipDialog/2560.160.1920.1034/0.0.2560.1394@0.0.2560.1394" timestamp="1585403742544" />
     <state x="987" y="456" width="586" height="488" key="find.popup" timestamp="1584978670238">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
