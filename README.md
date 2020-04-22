@@ -5,9 +5,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dc472724-5dc5-4063-8a67-4a346bdd6be1/deploy-status)](https://app.netlify.com/sites/av-team-monitor/deploys)
 
 ## Description
-Some years ago created a side project from scratch to keep learn web technologies and improve my personal skills. This is nowhere near perfect project as I didn't use Typescript and some of my components have way to much responsibility.
+Some years ago created a side project from scratch to keep learning web technologies and improve my personal skills. This is nowhere near perfect project as I didn't use Typescript and some of my components have way to much responsibility.
 
-This project is a team monitor and as the name states it allows to track JIRA and QC items to improve team's response times.
+This project is a team monitor and to track JIRA and QC items to improve team's response times.
 
 As there are times that items just sit there for days and nobody have checked them. The department I used to work had ~130 cross cultural developers, testers, analysts and managers.
 That made the sprints quite difficult to monitor and take action in time. 
